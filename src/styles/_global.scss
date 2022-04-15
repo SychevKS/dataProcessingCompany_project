@@ -1,0 +1,16 @@
+$color: blue;
+
+html {
+    font-family: Inter;
+}
+
+h1 {
+    color: $color;
+}
+
+.image {
+    display: block;
+    height: 600px;
+    width: 500px;
+    background: url(../images/jpg.jpg);
+}
