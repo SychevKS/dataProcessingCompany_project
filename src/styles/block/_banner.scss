@@ -1,0 +1,14 @@
+.banner {
+    position: relative;
+    z-index: -8;
+    .container {
+        margin: -8px 233px 0px 233px;
+    }
+    &__items {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        opacity: 0.3;
+    }
+}

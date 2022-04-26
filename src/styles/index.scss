@@ -1,4 +1,9 @@
+@use 'block/fonts';
+@use 'block/buttons';
+
 @use 'global';
-@use 'fonts';
-@use 'header';
-@use 'buttons';
+@use 'block/header';
+@use 'block/preview';
+@use 'block/banner';
+@use 'block/situation';
+

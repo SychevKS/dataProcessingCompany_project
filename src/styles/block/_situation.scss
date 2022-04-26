@@ -1,0 +1,25 @@
+.situation {
+    position: relative;
+    min-height: 382px;
+    
+    .container {
+        margin: 99px 222px 0px 222px;
+    }
+    &__background {
+        position: absolute;
+        width: 1537px;
+        height: 572px;
+        left: -33px;
+        top: -231px;
+        z-index: -9;
+    }
+    &__title {
+        text-align: center;
+        font-size: 42px;
+    }
+    &__text {
+        margin-top: 13px;
+        text-align: center;
+        font-size: 16px;
+    }
+}

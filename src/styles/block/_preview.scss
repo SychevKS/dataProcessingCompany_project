@@ -1,0 +1,51 @@
+.preview {
+    .container {
+        position: relative;
+        display: flex;
+        margin: 135px 0 0 170px;
+    }
+    &__subtitle {
+        margin-top: 19px;
+        &:nth-child(1) {
+            margin-top: 4px;
+            font-style: normal;
+            font-size: 16px;
+            color: #8476AA;
+        }
+        &:nth-child(2) {
+            margin-top: 6px;
+            font-style: normal;
+            font-size: 14px;
+            color: #6D6D78;
+        }
+    }
+    &__buttons {
+        margin-top: 40px;
+        width: 334px;
+        height: 46px; 
+    }
+    &__button {
+        width: 157px;
+        height: 100%;
+    }
+    &__item  {
+        margin-top: 60px;
+        width: 540px;
+        display: flex;
+    }
+    &__plug {
+        background: url(../images/Middle.png) center (center / cover) no-repeat;
+        width: 140px;
+        height: 80px;
+    }
+    &__descr {
+        margin-left: 20px;
+        width: 380px;
+    }
+    &__backimg {
+        margin-top: -30px;
+        background: url(../images/Frame.svg) center (center / cover) no-repeat;
+        width: 723.71px;
+        height: 579.57px;
+    }
+}
