@@ -5,6 +5,7 @@
     .container {
         margin: 99px 222px 0px 222px;
     }
+
     &__background {
         position: absolute;
         width: 1537px;
@@ -18,8 +19,35 @@
         font-size: 42px;
     }
     &__text {
-        margin-top: 13px;
-        text-align: center;
-        font-size: 16px;
+        margin-top: 10px;
+        font-size: 14px;
+        &_main {
+            margin-top: 13px;
+            text-align: center;
+            font-size: 16px;
+        }
+    }
+    &__items {
+        margin-top: 50px;
+        width: 997px;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(3, 299px);
+        column-gap: 50px;
+        grid-template-rows: repeat(2, 106px);
+        row-gap: 35px;
+    }
+    &__item {
+        display: flex;
+    }
+    &__icon {
+        width: 24px;
+        height: 24px;
+    }
+    &__descr {
+        margin-left: 28px;
+    }
+    &__subtitle {
+        font-size: 18px;
     }
 }

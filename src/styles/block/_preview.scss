@@ -13,10 +13,12 @@
             color: #8476AA;
         }
         &:nth-child(2) {
+            display: block;
             margin-top: 6px;
             font-style: normal;
             font-size: 14px;
             color: #6D6D78;
+            text-decoration: none;
         }
     }
     &__buttons {
