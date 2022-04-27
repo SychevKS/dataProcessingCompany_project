@@ -9,11 +9,12 @@ html {
 
 .title {
     margin: 0;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
+    font-family: 'Inter-700';
     font-size: 44px;
     color: #99EFD0;
+    span {
+        color: #F2994A;
+    }
 }
 
 .text {
@@ -22,4 +23,11 @@ html {
     font-size: 18px;
     color: #8476AA;
     line-height: 22px;
+}
+
+.back-image {
+    position: absolute;
+    width: 384.55px;
+    height: 566.84px;
+    top: 1784px;
 }

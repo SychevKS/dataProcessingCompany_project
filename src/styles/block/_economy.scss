@@ -1,0 +1,25 @@
+.economy {
+    margin: 200px 175px 0 175px;
+    min-height: 322px;
+    &__title {
+        font-size: 36px;
+        text-align: center;
+    }
+    &__text {
+        margin-top: 16px;
+        font-size: 15px;
+        text-align: center;
+        &_main {
+            margin-top: 32px;
+        }
+    }
+    &__items {
+        margin-top: 48px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        width: 291px;
+        height: 118px;
+    }
+}

@@ -1,0 +1,28 @@
+.traffic {
+    margin: 150px 251px 0px 222px;
+    &__wrapper {
+        display: flex;
+    }
+    &__block {
+        margin-top: 55px;
+        width: 470px;
+        height: 279px;
+    }
+    &__title {
+        font-size: 42px;
+        line-height: 50px;
+    }
+    &__text {
+        margin-top: 32px;
+        font-size: 15px;
+        line-height: 28px;
+    }
+    &__btn {
+        margin-top: 43px;
+        width: 155px;
+        height: 48px;
+    }
+    &__image {
+        margin-left: 58px;
+    }
+}
